@@ -1,25 +1,25 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* BODY */
+
 body {
   font-family: "Inter", system-ui, sans-serif;
   background: #0b0b0f;
   color: #ffffff;
 }
 
-/* APP */
+
 .app {
   min-height: 100vh;
   padding: 30px;
   text-align: center;
 }
 
-/* TITULO */
+
 h1 {
   font-size: 42px;
   margin-bottom: 30px;
@@ -27,7 +27,7 @@ h1 {
   color: #e50914;
 }
 
-/* SEARCH */
+
 form {
   margin-bottom: 40px;
 }
@@ -58,7 +58,7 @@ button {
   cursor: pointer;
 }
 
-/* LISTA */
+
 .movie-list {
   max-width: 1200px;
   margin: auto;
@@ -67,7 +67,6 @@ button {
   gap: 25px;
 }
 
-/* CARD */
 .movie-card {
   background: #14141c;
   border-radius: 14px;
@@ -92,7 +91,7 @@ button {
   font-size: 14px;
 }
 
-/* DETAIL */
+
 .movie-detail {
   max-width: 700px;
   margin: auto;
@@ -113,8 +112,11 @@ button {
   color: #ccc;
 }
 
-/* BOTON VOLVER */
 .movie-detail button {
   margin-bottom: 15px;
   background: #2a2a35;
+}
+
+.movie-detail h2 {
+  padding: 3%;
 }
